@@ -1,0 +1,19 @@
+admins: [yourUserName,AnotherPerson] 
+# when tgcf is run in live mode, the admins can run commands to change the configuration
+
+forwards:
+  - source: -1001708797633
+    dest: -1001666340472
+    # use username or link of the entity
+
+
+show_forwarded_from: false
+
+plugins:
+  filter:
+    text:
+      blacklist: ["nope"]
+  replace:
+    text:
+      god: devil
+      tokyo: delhi
