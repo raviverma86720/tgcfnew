@@ -1,4 +1,4 @@
-admins: [@Ashokverma100,AnotherPerson] 
+admins: @Ashokverma100
 # when tgcf is run in live mode, the admins can run commands to change the configuration
 
 forwards:
